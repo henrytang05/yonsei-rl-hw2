@@ -1,0 +1,19 @@
+[project]
+name = "hw2"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "gymnasium[classic-control,mujoco]>=1.2.3",
+    "mediapy>=1.2.6",
+    "moviepy<2.0",
+    "tensorboard>=2.20.0",
+    "tensorboardx>=2.6.4",
+    "torch>=2.11.0",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=9.0.2",
+]

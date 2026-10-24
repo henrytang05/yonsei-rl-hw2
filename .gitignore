@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info/
+
+# Virtual environments
+.venv/
+
+# Training data / tensorboard logs
+data/
+
+# Submission artifacts
+hw2_2025849132/
+hw2_2025849132.zip
+hw2.zip
+*.zip
+
+# LaTeX compiled artifacts
+latex/*.aux
+latex/*.fdb_latexmk
+latex/*.fls
+latex/*.log
+latex/*.out
+latex/*.synctex.gz
+latex/*.pdf
+
+# macOS
+.DS_Store
+__MACOSX/
+
+# Misc
+uv.lock
+.remember/
+log.txt
+CLAUDE.md
+CAS4160__Homework_2.pdf
